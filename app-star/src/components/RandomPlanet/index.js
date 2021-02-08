@@ -1,1 +1,0 @@
-export { RandomPlanet } from './RandomPlanet'
