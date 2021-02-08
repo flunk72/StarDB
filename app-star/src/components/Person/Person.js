@@ -15,7 +15,7 @@ const Record = ({person, field, label}) => {
 export {
   Record
 };
-export class Person extends Component {
+export default class Person extends Component {
   swapiService = new SwapiService()
 
   state = {
@@ -47,11 +47,11 @@ export class Person extends Component {
 
   render() {
     const { person, image } = this.state
-    
+
     if(!person) {
       return <span>Выберите персонажа из списка</span>;
     }
-    const { id, name, gender, birthYear, eyeColor } = person
+    const { name } = person
     
     return (
       <div className="person-details card">

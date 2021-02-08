@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { ItemList } from '../ItemList/ItemList';
+import ItemList from '../ItemList/ItemList';
 import { Person } from '../Person/Person';
 import { Error } from '../Error/Error';
 import Row from '../Row/Row'
